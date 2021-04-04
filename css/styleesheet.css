@@ -40,8 +40,7 @@ body {
 }
 .h1text{
   font-weight: 600;
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 15px;
   border-bottom: solid 7px #003c6f;
 }
 .bg-dark-blue{
@@ -55,8 +54,7 @@ body {
 .text-white span{
   color: #fff!important;
   font-weight: 600;
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 15px;
 }
 
 .color-white{
@@ -69,4 +67,48 @@ body {
 }
 .banner-carousel .owl-theme .owl-dots .owl-dot:hover span{
   background: #003c6f;
+}
+.font-sm-8{
+  font-size: 8px;
+}
+.eee-section{
+  background: url(../images/eee-bg.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 150px 0;
+}
+.text-white{
+  color:#fff;
+}
+.font-32{
+  font-size: 32px;
+  font-weight: 600;
+}
+.font-16{
+  font-size: 16px;
+  font-weight: 600;
+}
+.color-green{
+  color: #109251;
+}
+@media screen and (min-width:992px){
+  .font-12{
+    font-size: 12px;
+  }
+  .h1text{
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .font-md-16{
+    font-size: 16px;
+  }
+  .text-white span{
+    color: #fff!important;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .signup-section .right-column{
+    padding-top: 100px;
+  }
 }
