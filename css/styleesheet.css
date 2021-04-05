@@ -94,10 +94,13 @@ body {
 .bg-green{
   background: #109251;
 }
-.form-section form input{
+.form-section input, .form-section form select{
   background: transparent;
   border-radius: 0;
   border: solid 2px #105632;
+}
+.form-section-label input{
+  visibility: hidden;
 }
 .form-fields{
   display: block;
@@ -114,19 +117,19 @@ body {
   color: #0d7843;
 }
 .radio-form .form-check-label .checked:before{
-  content: '';
-  position: absolute;
-  width: 30px;
-  height: 30px;
+  content: '\f00c';
+  font-family: FontAwesome;
   z-index: 9;
   font-size: 22px;
   padding-left: 4px;
   color: white;
   top: -7px;
+  animation: zoomincheck 0.5s forwards;
 }
 .radio-form .form-check-label:after{
   background: rgba(255, 215, 0, 0);
-  border: solid 2px #105632;
+}
+.radio-form .form-check-label:after, .radio-form .form-check-label .checked:before{
   content: '';
   position: absolute;
   width: 30px;
